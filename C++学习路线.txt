@@ -1,0 +1,31 @@
+C++学习路线（Codesheep结合其他）
+1.书籍顺序
+    《Essential C++》
+    《C++ Primer Plus》≈《Java编程思想》
+    《Effective C++》
+    《More Effective C++》
+    基础四大件:
+    《大话数据结构》
+    《剑指offer》
+    《TCP/IP详解》卷1：协议——替换：《计算机网络》，谢希仁
+    《深入理解操作系统》
+    《大话设计模型》
+    Linux操作系统：
+    《《《下次补充
+
+2.基于windows系统的环境搭建【学习】
+    1.Visual Studio 2019
+        https://visualstudio.microsoft.com/zh-hans/vs/older-downloads/
+        注意：VS2022对windows版本有要求，这里选择VS2019(Community)
+        -选择 使用C++的桌面开发
+        -自选 中文（简体），安装位置
+    2.Visual Studio Code + MinGW-w64
+        https://zhuanlan.zhihu.com/p/77074009
+        https://sourceforge.net/projects/mingw-w64/files/
+        注意：MinGW-w64在Files中选择下载版本，解压到C盘根目录，配置环境变量
+        安装Visual Studio Code，扩展：中文，C/C++
+    3.GitHub desktop使用
+        先使用VPN访问github，创建仓库A
+        依次安装git（全部默认即可），GitHub desktop
+        在GitHub desktop中sign in，clone仓库，对应本地文件夹
+        （建议一个章节Commit to main）
